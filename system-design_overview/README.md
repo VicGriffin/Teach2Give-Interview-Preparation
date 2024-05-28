@@ -52,7 +52,7 @@
     - How would you handle the failure of the application?
     - Should you distribute the data across multiple databases?
     - How will you replicate the database?
-1.	Identifying and solving bottlenecks – the step involves identifying the bottlenecks in your system design and confer solutions to resolve with the interviewer.
+1.	Identifying and solving bottlenecks involves identifying the bottlenecks in your system design and confer solutions to resolve with the interviewer.
 ### Sample sytem design interview question and solutions
 1. How would you design a URL Shortening service similar to TinyURL?  
 The URL shortening service allows users to shorten the long URLs. So users can use the short URL instead of the long URL, and the fun fact is that the short URL works the same as the long URL.
@@ -65,17 +65,17 @@ The URL shortening service allows users to shorten the long URLs. So users can u
     •	Track the number of clicks on the URL.  
 **Approach:**  
 
-You can discuss the below stuff.  
+You can talk about the below stuff.  
 •	How you will use the REST API to communicate with the server.  
 •	How will you handle the 500 requests every second via load balancing?  
 •	You can discuss using the relational database, as it doesn’t require horizontal scaling.  
-•	You can discuss how you will prepare a table for relational database to map long URLs with short URLs.  
-•	The critical point is how to shorten the long URL by providing a unique id to each shortened URL.  
+•	You can discuss how you will prepare a table for a relational database to map long URLs with short URLs.  
+•	The critical point is how to shorten the long URL by providing a unique ID to each shortened URL.  
 
-1.**How would you design a Web Crawler?**  
+1 How would you design a Web Crawler?**  
 The Web crawlers allow to extract the information from different web pages.  
 **Approach:**  
-You can discuss how you open multiple web pages in the web browser. Also, it is important to know how many browser windows you will open simultaneously to crawl multiple web pages. Let’s say if you allow us to open 1000 browser windows together, the device may run out of memory.
+You can talk about how you open multiple web pages in the web browser. Also, it is important to know how many browser windows you will open simultaneously to crawl multiple web pages. Let’s say if you allow us to open 1000 browser windows together, the device may run out of memory.
 You can also discuss changing the web pages and domains dynamically.  
 1. **How would you design Facebook and Instagram?**  
 Here, you are required to build a social media application.  
